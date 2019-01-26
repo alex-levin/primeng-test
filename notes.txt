@@ -1,0 +1,19 @@
+npm install primereact --save
+npm install primeicons --save
+npm install classnames --save
+npm install react-router-dom --save
+npm install axios --save
+
+index.js:
+import 'primereact/resources/themes/nova-light/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+
+npm install json-sever -g
+
+https://facebook.github.io/create-react-app/docs/adding-a-sass-stylesheet
+npm install node-sass --save
+Copy App.scss from Primereact.
+In App.js replace 
+import './App.css'; to
+import './App.scss';
